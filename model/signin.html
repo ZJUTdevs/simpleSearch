@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../view/reset.css">
+    <link rel="stylesheet" href="../view/signin.css">
+</head>
+<body>
+<div class="main">
+    <div class="title">
+        <a href="signin.html" class="active">登录</a>
+        <b>·</b>
+        <a id="sign_up_btn" href="signup.html">注册</a>
+    </div>
+    <div class="sign_in_container">
+        <ul>
+            <li class="user">
+                <input type="text" name="user" placeholder="请输入用户名">
+
+            </li>
+            <li class="pas">
+                <input type="password" name="password" placeholder="请输入密码" maxlength="16">
+            </li>
+        </ul>
+        <div class="check">
+
+        </div>
+        <div>
+            <div class="remember">
+                <input type="checkbox" value="true" checked="checked" name="checked" id="checked">
+                <span>记住我</span>
+            </div>
+            <div class="forget">
+                <a href="">忘记密码？</a>
+            </div>
+        </div>
+        <div>
+            <input type="submit" name="commit" value="登录" class="sign_in_btn clearfloat">
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</html>

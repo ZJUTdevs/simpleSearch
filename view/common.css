@@ -1,0 +1,84 @@
+#public-header{
+    width: 99.9%;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+
+}
+
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#logo{
+    float: left;
+    height: 54px;
+    margin-left: 100px;
+}
+
+.admin{
+    position: relative;
+    float: right;
+    height: 54px;
+}
+
+#admin{
+    height: 100%;
+}
+
+#admin li{
+    float: left;
+    margin-left: 20px;
+}
+
+.signin a{
+    display: block;
+    font-size: 16px;
+    color: #969696;
+    padding: 16px;
+}
+
+.signup{
+    position: relative;
+    height: 100%;
+    width: 55px;
+}
+
+.signup a{
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 8px;
+    padding:7px 8px;
+    text-align: center;
+    border: 1px solid #ea6f5a;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ea6f5a;
+    background-color: transparent;
+}
+
+#public-footer{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #f0f0f0;
+}
+
+#public-footer ul{
+    display: inline-block;
+    overflow: hidden;
+}
+
+#public-footer ul li{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
+#public-footer a{
+    font-size: 16px;
+    color: #969696;
+}

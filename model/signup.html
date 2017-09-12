@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../view/reset.css">
+    <link rel="stylesheet" href="../view/signup.css">
+</head>
+<body>
+<div class="main">
+    <div class="title">
+        <a id="sign_in_btn" href="signin.html">登录</a>
+        <b>·</b>
+        <a href="signup.html" class="active">注册</a>
+    </div>
+    <div class="sign_up_container">
+        <ul>
+            <li class="user">
+                <input type="text" placeholder="你的昵称" name="user" maxlength="8">
+            </li>
+            <li class="tel">
+                <input type="text" placeholder="手机号" name="phone" maxlength="11">
+            </li>
+            <li class="email">
+                <input type="text" placeholder="邮箱" name="email">
+            </li>
+            <li class="pas">
+                <input type="password" placeholder="输入密码" name="setpas" maxlength="16">
+            </li>
+            <li class="pas_again">
+                <input type="password" placeholder="再次输入密码" name="pas_again" maxlength="16">
+            </li>
+            <li class="check">
+                <input type="text" placeholder="输入验证码" name="check">
+                <img src="" alt="">
+            </li>
+        </ul>
+        <input type="submit" name="commit" value="注册" class="sign_up_btn">
+    </div>
+</div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</html>
